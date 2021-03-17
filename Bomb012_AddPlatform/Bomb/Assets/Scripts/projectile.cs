@@ -50,7 +50,7 @@ public class projectile : MonoBehaviour
         //hit infor
         RaycastHit hit;
         // if ray cast hit some thing then we put information to the hit variable the ditance is 100 f
-        if (Physics.Raycast(camRay, out hit, 100f, layer))
+        if (Physics.Raycast(camRay, out hit, 1000f, layer))
         {// if we hit some thing cursor os active the set teh cursor position with the hit point
             cursor.SetActive(true);
             cursor.transform.position = hit.point + Vector3.up * 0.1f;

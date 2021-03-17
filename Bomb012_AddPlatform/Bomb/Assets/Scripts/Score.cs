@@ -53,9 +53,9 @@ public class Score : MonoBehaviour
             int rand = Random.Range(0, 11);
             for (int i = 0; i< rand; i++) {
                 // new position in each part of filed for enemy and player 
-                Vector3 positionplayer = new Vector3(Random.Range(-23, 22), 0.5f, Random.Range(-21, 0));
-                Vector3 positionenemy = new Vector3(Random.Range(-23, 22), 0.5f, Random.Range(0, 22));
-                 Instantiate(player1, positionplayer, transform.rotation);
+                Vector3 positionplayer = new Vector3(Random.Range(115, 890), 80f, Random.Range(108, 440));
+                Vector3 positionenemy = new Vector3(Random.Range(115, 890), 80f, Random.Range(544, 900));
+                Instantiate(player1, positionplayer, transform.rotation);
                Instantiate(enemy1, positionenemy, transform.rotation);
             }
             levelComplete.SetActive(true);
@@ -85,8 +85,8 @@ public class Score : MonoBehaviour
             for (int i = 0; i < rand; i++)
             {
 
-                Vector3 positionplayer = new Vector3(Random.Range(-23, 22), 0.5f, Random.Range(-21, 0));
-                Vector3 positionenemy = new Vector3(Random.Range(-23, 22), 0.5f, Random.Range(0, 22));
+                Vector3 positionplayer = new Vector3(Random.Range(115, 890), 80f, Random.Range(108, 440));
+                Vector3 positionenemy = new Vector3(Random.Range(115, 890), 80f, Random.Range(544, 900));
                 Instantiate(player1, positionplayer, transform.rotation);
                 Instantiate(enemy1, positionenemy, transform.rotation);
             }
