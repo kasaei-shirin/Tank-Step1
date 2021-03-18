@@ -28,7 +28,10 @@ public class Bullet : MonoBehaviour
    
     void Update()
     {
-
+        if (gameObject.transform.position.y < -30)
+        {
+            Destroy(this.gameObject);
+        }
         //1
         //countdown -= Time.deltaTime;
         //if (countdown <= 0f && !hasExploded) {
