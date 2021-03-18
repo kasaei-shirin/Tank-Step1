@@ -53,10 +53,10 @@ public class Score : MonoBehaviour
             int rand = Random.Range(0, 11);
             for (int i = 0; i< rand; i++) {
                 // new position in each part of filed for enemy and player 
-                Vector3 positionplayer = new Vector3(Random.Range(115, 890), 80f, Random.Range(108, 440));
-                Vector3 positionenemy = new Vector3(Random.Range(115, 890), 80f, Random.Range(544, 900));
+                Vector3 positionplayer = new Vector3(Random.Range(115, 890) + Random.Range(0, 20), 40f, Random.Range(108, 440) + Random.Range(0, 20));
+                Vector3 positionenemy = new Vector3(Random.Range(115, 890) + Random.Range(0, 20), 40f, Random.Range(544, 900) + Random.Range(0, 20));
                 Instantiate(player1, positionplayer, transform.rotation);
-               Instantiate(enemy1, positionenemy, transform.rotation);
+                Instantiate(enemy1, positionenemy, Quaternion.Euler(0, -Input.compass.trueHeading + 180, 0));
             }
             levelComplete.SetActive(true);
             Share.attackButton = false;
@@ -85,10 +85,10 @@ public class Score : MonoBehaviour
             for (int i = 0; i < rand; i++)
             {
 
-                Vector3 positionplayer = new Vector3(Random.Range(115, 890), 80f, Random.Range(108, 440));
-                Vector3 positionenemy = new Vector3(Random.Range(115, 890), 80f, Random.Range(544, 900));
+                Vector3 positionplayer = new Vector3(Random.Range(115, 890) + Random.Range(0, 20), 40f, Random.Range(108, 440) + Random.Range(0, 20));
+                Vector3 positionenemy = new Vector3(Random.Range(115, 890) + Random.Range(0, 20), 40f, Random.Range(544, 900) + Random.Range(0, 20));
                 Instantiate(player1, positionplayer, transform.rotation);
-                Instantiate(enemy1, positionenemy, transform.rotation);
+                Instantiate(enemy1, positionenemy, Quaternion.Euler(0, -Input.compass.trueHeading + 180, 0));
             }
 
             #endregion
