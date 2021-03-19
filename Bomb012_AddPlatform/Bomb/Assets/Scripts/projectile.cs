@@ -61,7 +61,8 @@ public class projectile : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
 
-               obj = Instantiate(bulletPrefabs, shootPoint.position, Quaternion.Euler(0, -Input.compass.trueHeading, 0));
+             //  obj = Instantiate(bulletPrefabs, shootPoint.position, Quaternion.Euler(0, -Input.compass.trueHeading, 0));
+                obj = Instantiate(bulletPrefabs, shootPoint.position, transform.rotation);
                 // it change the velocity of each bullet to the new velocity from CalculateVelocity methood
                 obj.velocity = Vo;
                 
