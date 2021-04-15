@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 38b8a55ef5e26994ca1223340f0fe851
+timeCreated: 1484743772
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bezier1
+    100002: car
+    100004: car1
+    100006: car14
+    100008: car15
+    100010: car16
+    100012: car17
+    100014: car18
+    100016: car19
+    100018: car2
+    100020: car20
+    100022: car21
+    100024: car22
+    100026: car23
+    100028: car24
+    100030: car25
+    100032: car26
+    100034: car27
+    100036: car28
+    100038: car29
+    100040: car3
+    100042: car30
+    100044: car31
+    100046: car32
+    100048: car33
+    100050: car34
+    100052: car35
+    100054: car36
+    100056: car37
+    100058: car38
+    100060: car39
+    100062: car4
+    100064: car40
+    100066: car41
+    100068: car42
+    100070: car43
+    100072: car44
+    100074: car45
+    100076: car46
+    100078: car47
+    100080: car48
+    100082: car49
+    100084: car5
+    100086: car50
+    100088: car51
+    100090: car52
+    100092: car53
+    100094: car54
+    100096: car55
+    100098: car6
+    100100: //RootNode
+    100102: Streets
+    400000: bezier1
+    400002: car
+    400004: car1
+    400006: car14
+    400008: car15
+    400010: car16
+    400012: car17
+    400014: car18
+    400016: car19
+    400018: car2
+    400020: car20
+    400022: car21
+    400024: car22
+    400026: car23
+    400028: car24
+    400030: car25
+    400032: car26
+    400034: car27
+    400036: car28
+    400038: car29
+    400040: car3
+    400042: car30
+    400044: car31
+    400046: car32
+    400048: car33
+    400050: car34
+    400052: car35
+    400054: car36
+    400056: car37
+    400058: car38
+    400060: car39
+    400062: car4
+    400064: car40
+    400066: car41
+    400068: car42
+    400070: car43
+    400072: car44
+    400074: car45
+    400076: car46
+    400078: car47
+    400080: car48
+    400082: car49
+    400084: car5
+    400086: car50
+    400088: car51
+    400090: car52
+    400092: car53
+    400094: car54
+    400096: car55
+    400098: car6
+    400100: //RootNode
+    400102: Streets
+    2300000: car
+    2300002: car1
+    2300004: car14
+    2300006: car15
+    2300008: car16
+    2300010: car17
+    2300012: car18
+    2300014: car19
+    2300016: car2
+    2300018: car20
+    2300020: car21
+    2300022: car22
+    2300024: car23
+    2300026: car24
+    2300028: car25
+    2300030: car26
+    2300032: car27
+    2300034: car28
+    2300036: car29
+    2300038: car3
+    2300040: car30
+    2300042: car31
+    2300044: car32
+    2300046: car33
+    2300048: car34
+    2300050: car35
+    2300052: car36
+    2300054: car37
+    2300056: car38
+    2300058: car39
+    2300060: car4
+    2300062: car40
+    2300064: car41
+    2300066: car42
+    2300068: car43
+    2300070: car44
+    2300072: car45
+    2300074: car46
+    2300076: car47
+    2300078: car48
+    2300080: car49
+    2300082: car5
+    2300084: car50
+    2300086: car51
+    2300088: car52
+    2300090: car53
+    2300092: car54
+    2300094: car55
+    2300096: car6
+    2300098: Streets
+    3300000: car
+    3300002: car1
+    3300004: car14
+    3300006: car15
+    3300008: car16
+    3300010: car17
+    3300012: car18
+    3300014: car19
+    3300016: car2
+    3300018: car20
+    3300020: car21
+    3300022: car22
+    3300024: car23
+    3300026: car24
+    3300028: car25
+    3300030: car26
+    3300032: car27
+    3300034: car28
+    3300036: car29
+    3300038: car3
+    3300040: car30
+    3300042: car31
+    3300044: car32
+    3300046: car33
+    3300048: car34
+    3300050: car35
+    3300052: car36
+    3300054: car37
+    3300056: car38
+    3300058: car39
+    3300060: car4
+    3300062: car40
+    3300064: car41
+    3300066: car42
+    3300068: car43
+    3300070: car44
+    3300072: car45
+    3300074: car46
+    3300076: car47
+    3300078: car48
+    3300080: car49
+    3300082: car5
+    3300084: car50
+    3300086: car51
+    3300088: car52
+    3300090: car53
+    3300092: car54
+    3300094: car55
+    3300096: car6
+    3300098: Streets
+    4300000: Streets
+    4300002: car
+    4300004: car1
+    4300006: car2
+    4300008: car3
+    4300010: car4
+    4300012: car5
+    4300014: car6
+    4300016: car14
+    4300018: car15
+    4300020: car16
+    4300022: car17
+    4300024: car18
+    4300026: car19
+    4300028: car20
+    4300030: car21
+    4300032: car22
+    4300034: car23
+    4300036: car24
+    4300038: car25
+    4300040: car26
+    4300042: car27
+    4300044: car28
+    4300046: car29
+    4300048: car30
+    4300050: car31
+    4300052: car32
+    4300054: car33
+    4300056: car34
+    4300058: car35
+    4300060: car36
+    4300062: car37
+    4300064: car38
+    4300066: car39
+    4300068: car40
+    4300070: car41
+    4300072: car42
+    4300074: car43
+    4300076: car44
+    4300078: car45
+    4300080: car46
+    4300082: car47
+    4300084: car48
+    4300086: car49
+    4300088: car50
+    4300090: car51
+    4300092: car52
+    4300094: car53
+    4300096: car54
+    4300098: car55
+    6400000: car
+    6400002: car1
+    6400004: car14
+    6400006: car15
+    6400008: car16
+    6400010: car17
+    6400012: car18
+    6400014: car19
+    6400016: car2
+    6400018: car20
+    6400020: car21
+    6400022: car22
+    6400024: car23
+    6400026: car24
+    6400028: car25
+    6400030: car26
+    6400032: car27
+    6400034: car28
+    6400036: car29
+    6400038: car3
+    6400040: car30
+    6400042: car31
+    6400044: car32
+    6400046: car33
+    6400048: car34
+    6400050: car35
+    6400052: car36
+    6400054: car37
+    6400056: car38
+    6400058: car39
+    6400060: car4
+    6400062: car40
+    6400064: car41
+    6400066: car42
+    6400068: car43
+    6400070: car44
+    6400072: car45
+    6400074: car46
+    6400076: car47
+    6400078: car48
+    6400080: car49
+    6400082: car5
+    6400084: car50
+    6400086: car51
+    6400088: car52
+    6400090: car53
+    6400092: car54
+    6400094: car55
+    6400096: car6
+    6400098: Streets
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1720
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bezier1
+        weight: 1
+      - path: car
+        weight: 1
+      - path: car1
+        weight: 1
+      - path: car2
+        weight: 1
+      - path: car3
+        weight: 1
+      - path: car4
+        weight: 1
+      - path: car5
+        weight: 1
+      - path: car6
+        weight: 1
+      - path: car14
+        weight: 1
+      - path: car15
+        weight: 1
+      - path: car16
+        weight: 1
+      - path: car17
+        weight: 1
+      - path: car18
+        weight: 1
+      - path: car19
+        weight: 1
+      - path: car20
+        weight: 1
+      - path: car21
+        weight: 1
+      - path: car22
+        weight: 1
+      - path: car23
+        weight: 1
+      - path: car24
+        weight: 1
+      - path: car25
+        weight: 1
+      - path: car26
+        weight: 1
+      - path: car27
+        weight: 1
+      - path: car28
+        weight: 1
+      - path: car29
+        weight: 1
+      - path: car30
+        weight: 1
+      - path: car31
+        weight: 1
+      - path: car32
+        weight: 1
+      - path: car33
+        weight: 1
+      - path: car34
+        weight: 1
+      - path: car35
+        weight: 1
+      - path: car36
+        weight: 1
+      - path: car37
+        weight: 1
+      - path: car38
+        weight: 1
+      - path: car39
+        weight: 1
+      - path: car40
+        weight: 1
+      - path: car41
+        weight: 1
+      - path: car42
+        weight: 1
+      - path: car43
+        weight: 1
+      - path: car44
+        weight: 1
+      - path: car45
+        weight: 1
+      - path: car46
+        weight: 1
+      - path: car47
+        weight: 1
+      - path: car48
+        weight: 1
+      - path: car49
+        weight: 1
+      - path: car50
+        weight: 1
+      - path: car51
+        weight: 1
+      - path: car52
+        weight: 1
+      - path: car53
+        weight: 1
+      - path: car54
+        weight: 1
+      - path: car55
+        weight: 1
+      - path: Streets
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
