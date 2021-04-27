@@ -59,12 +59,12 @@ public class ProjecttileEnemy : MonoBehaviour
                     Vector3 Vo = CalculateVelocity(position1, shootPoint.position, 1f);
                    // Vector3 Vo = CalculateVelocity(position, shootPoint.position, 1f);
                     //canon look at the place you click
-                  //  transform.rotation = Quaternion.LookRotation(position1);
+                transform.rotation = Quaternion.LookRotation(Vo);
                     // if the button click then bullet create
                     if (Time.time > nextFire)
                     {
 
-                        obj = Instantiate(bulletPrefabs, shootPoint.position, Quaternion.Euler(0, -Input.compass.trueHeading + 180, 0));
+                        obj = Instantiate(bulletPrefabs, shootPoint.position, transform.rotation);
                         // it change the velocity of each bullet to the new velocity from CalculateVelocity methood
                         obj.velocity = Vo;
                         nextFire = Time.time + fireRate;
