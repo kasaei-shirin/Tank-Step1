@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Assets.Scripts;
-
+using UnityEngine.SceneManagement;
 public class Game_MenuScene : MonoBehaviour
 {
     public GameObject SettingPagGameHolder,VictoryMessageHolder,MessageBoxHolder;
@@ -86,6 +86,7 @@ public class Game_MenuScene : MonoBehaviour
     public void BackFromGameToMaiinMenu()
     {
         SettingPagGameHolder.SetActive(false);
+        SceneManager.LoadScene("Menu_Scene");
 
     }
     public void Next_Button() {

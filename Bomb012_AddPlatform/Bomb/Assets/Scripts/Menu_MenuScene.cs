@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Menu_MenuScene : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class Menu_MenuScene : MonoBehaviour
         Missle.SetActive(true);
     }
 
-    public void Play_Button()
+    public void Army_Button()
     {
         ArmyUnitPageHolder.SetActive(true);
         MainPageHolder.SetActive(false);
@@ -85,7 +86,10 @@ public class Menu_MenuScene : MonoBehaviour
     }
 
 
-
+    public void Play_Button()
+    {
+        SceneManager.LoadScene("Game_Scene");
+    }
 
 
 
