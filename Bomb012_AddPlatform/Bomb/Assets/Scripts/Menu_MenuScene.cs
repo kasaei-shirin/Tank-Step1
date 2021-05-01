@@ -14,6 +14,17 @@ public class Menu_MenuScene : MonoBehaviour
     public Text viberation,sound,music;
     
     bool statusViberation=true,statusSound=true,statusMusic = true;
+
+
+    private Animator ScreenFaderAnim;
+    private Canvas CanvasMenu;
+    void Awake()
+    {
+        ScreenFaderAnim = GameObject.FindGameObjectWithTag("Fader").GetComponent<Animator>();
+        CanvasMenu = gameObject.GetComponent<Canvas>();
+    }
+
+
     //Arash
     public void Tank_Button()
     {
@@ -88,7 +99,7 @@ public class Menu_MenuScene : MonoBehaviour
 
     public void Play_Button()
     {
-        SceneManager.LoadScene("Game_Scene");
+        gameObject.SendMessage("FadeScreenProcessFromStart");
     }
 
 
@@ -162,5 +173,16 @@ public class Menu_MenuScene : MonoBehaviour
         }
        
        
+    }
+
+
+
+    IEnumerator FadeScreenProcessFromStart()
+    {
+        CanvasMenu.enabled = false;
+        ScreenFaderAnim.Play("FadeIn");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Game_Scene");
+
     }
 }
